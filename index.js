@@ -2,8 +2,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+bot.on('ready', () => {
+  console.log(`Logged in as ${bot.user.tag}!`);
 });
 
  bot.on('message', message => {
